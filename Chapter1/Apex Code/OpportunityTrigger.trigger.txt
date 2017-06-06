@@ -1,0 +1,8 @@
+//Trigger makes an API call to google prediciton API to predict opportunity probability
+//Please note that this trigger is written for demonstration purpose only and not bulkified or batched
+trigger opportunityPredictor on Opportunity (after insert) {
+   if(trigger.isinsert && trigger.isAfter){
+       OpportunityTriggerHelper.predictProbability(trigger.new[0].Id);
+   }
+}
+
