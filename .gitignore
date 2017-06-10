@@ -49,3 +49,20 @@ Temporary Items
 #Scala project ignore target folders
 target
 *.class
+
+# Eclipse for Java Project
+.classpath
+.project
+.settings/
+
+# Intellij for Java Project
+.idea/
+*.iml
+*.iws
+
+# Mac for Java Project
+.DS_Store
+
+# Maven for Java Project
+log/
+target/
