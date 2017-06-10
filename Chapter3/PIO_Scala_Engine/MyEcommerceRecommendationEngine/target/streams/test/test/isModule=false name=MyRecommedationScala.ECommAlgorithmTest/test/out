@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0m[32mECommAlgorithmTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mECommAlgorithm.genMLlibRating()[0m[0m
+[0m[[0minfo[0m] [0m[32m- should create RDD[MLlibRating] correctly[0m[0m
+[0m[[0minfo[0m] [0m[32mECommAlgorithm.trainDefault()[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return popular count for each item[0m[0m
+[0m[[0minfo[0m] [0m[32mECommAlgorithm.predictKnownuser()[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return top item[0m[0m
+[0m[[0minfo[0m] [0m[32mECommAlgorithm.predictDefault()[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return top item[0m[0m
+[0m[[0minfo[0m] [0m[32mECommAlgorithm.predictSimilar()[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return top item[0m[0m
