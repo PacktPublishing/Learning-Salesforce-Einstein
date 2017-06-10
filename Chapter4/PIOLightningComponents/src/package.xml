@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PredictionIO Lightning Components</fullName>
+    <description>This package consists of Lightning Components and apex code to integrate with PredictionIO engine and PredictionIO Event Server</description>
+    <types>
+        <members>HttpUtil</members>
+        <members>MockPredictionIOEngineResponse</members>
+        <members>MockPredictionIOEventServerResponse</members>
+        <members>PredictionIOResult</members>
+        <members>ProductSelector</members>
+        <members>ProductViewCaptureController</members>
+        <members>ProductViewCaptureModel</members>
+        <members>SimilarProductRecommenderController</members>
+        <members>SimilarProductRecommenderModel</members>
+        <members>TestProductViewCaptureController</members>
+        <members>TestSimilarProductRecommenderController</members>
+        <members>UserSelector</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>ProductViewCapture</members>
+        <members>SimilarProductRecommender</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>PredictionIOSettings__c.API_Endpoint__c</members>
+        <members>PredictionIOSettings__c.ApplicationID__c</members>
+        <members>Product2.PredictionIOExternalId__c</members>
+        <members>User.PredictionIOExternalId__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>PredictionIOSettings__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>PIOEngine</members>
+        <members>PIOEventServer</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <version>37.0</version>
+</Package>

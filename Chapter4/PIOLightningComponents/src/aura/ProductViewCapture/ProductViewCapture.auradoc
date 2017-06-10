@@ -1,0 +1,6 @@
+<aura:documentation>
+    <aura:description>This component captures view event when user views a Product</aura:description>
+    <aura:example name="ExampleName" ref="c:ProductViewCapture" label="Examples of ProductViewCapture">
+        Example Description
+    </aura:example>
+</aura:documentation>

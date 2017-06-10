@@ -1,0 +1,31 @@
+{
+  "name": "einsteinvision",
+  "version": "1.0.0",
+  "description": "Sample app to demonstrate Einstein Vision API",
+  "main": "server.js",
+  "dependencies": {
+    "connect-multiparty": "^2.0.0",
+    "episode-7": "^1.1.1",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^7.1.9",
+    "pify": "^2.3.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node middleware-api/run-app",
+    "heroku-postbuild": "cd filedrop-ui/ && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/einstein-vision-node.git"
+  },
+  "keywords": [
+    "einstein"
+  ],
+  "author": "Mohith Shrivastava",
+  "license": "MIT"
+}

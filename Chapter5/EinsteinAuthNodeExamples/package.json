@@ -1,0 +1,25 @@
+{
+  "name": "herokuvisionauth",
+  "version": "0.0.0",
+  "description": "Sample heroku node app to fetch accessToken",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@salesforce-ux/design-system": "^2.2.2",
+    "express": "4.13.3",
+    "jsonwebtoken": "^7.1.9",
+    "request": "^2.78.0",
+    "ejs": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/herokueinsteinvision.git"
+  },
+  "keywords": [
+    "einsteinvision"
+  ],
+  "author": "Mohith",
+  "license": "MIT"
+}

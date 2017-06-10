@@ -1,0 +1,24 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global" controller="EinsteinVisionImagePrediction">
+   <aura:attribute name="modelId" type="String" default="PFCOJICP2VD4LYV5M3O4A2XVLU"/>
+   <aura:attribute name="imageName" type="String"/>
+   <aura:handler name="init" value="{!this}" action="{!c.init}" />
+   <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+   <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
+   <lightning:input type="file" label="Upload your broken device" name="file" multiple="false" accept="image/png,image/jpge,image/jpg" onchange="{! c.handleFilesChange }"/>
+   <br/><br/>
+   <img src="" height="200" alt="Image preview..."/>
+   <br/>
+   <br/>
+   <center>
+      <div class="slds-spinner_container" aura:id="spinner">
+         <div role="status" class="slds-spinner slds-spinner--medium">
+            <span class="slds-assistive-text">Loading</span>
+            <div class="slds-spinner__dot-a"></div>
+            <div class="slds-spinner__dot-b"></div>
+         </div>
+      </div>
+   </center>
+   <div class="slds-box">
+      <p>You have uploaded an image for <b> {!v.imageName} </b> and a technician will visit you soon !!!</p>
+   </div>
+</aura:component>

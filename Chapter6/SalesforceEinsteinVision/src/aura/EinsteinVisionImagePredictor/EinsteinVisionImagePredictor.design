@@ -1,0 +1,3 @@
+<design:component label="Smart Image recognition">
+    <design:attribute name="modelId" label="modelId" description="Add Your ModelId obtained via training" />
+</design:component>

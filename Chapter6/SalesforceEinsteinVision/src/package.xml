@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Einstein Vision</fullName>
+    <description>This package consists of code for connecting Salesforce with the Einstein Vision</description>
+    <types>
+        <members>EinsetinPredictionResponse</members>
+        <members>EinsteinVisionAccessTokenManager</members>
+        <members>EinsteinVisionCreateDatasetScheduler</members>
+        <members>EinsteinVisionDataSetList</members>
+        <members>EinsteinVisionDatasetResult</members>
+        <members>EinsteinVisionGetDataset</members>
+        <members>EinsteinVisionGetStatusScheduler</members>
+        <members>EinsteinVisionGetTrainingStatusScheduler</members>
+        <members>EinsteinVisionHttpUtility</members>
+        <members>EinsteinVisionImagePrediction</members>
+        <members>EinsteinVisionJWT</members>
+        <members>EinsteinVisionJWTBearerTokenExchange</members>
+        <members>EinsteinVisionTrainDataSetResponse</members>
+        <members>EinsteinVisionTrainDataset</members>
+        <members>EinsteinVisionTrainDatasetScheduler</members>
+        <members>EinsteinVisionUtility</members>
+        <members>EinstieinVisionCreateDatasetUtil</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>TriggerOnEinsteinVisionDataset</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>EinsteinVisionImagePredictor</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>Einstein_Vision_Admin</members>
+        <members>Einstein_Vision_Admin_Lightning</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>EinsteinVision__c.AccessToken__c</members>
+        <members>EinsteinVision__c.AccountId__c</members>
+        <members>EinsteinVision__c.ExpirationTime__c</members>
+        <members>EinsteinVision__c.PrivateKeyName__c</members>
+        <members>Einstein_Vision_Dataset__c.DatasetId__c</members>
+        <members>Einstein_Vision_Dataset__c.ModelId__c</members>
+        <members>Einstein_Vision_Dataset__c.Public_URL__c</members>
+        <members>Einstein_Vision_Dataset__c.Status__c</members>
+        <members>Einstein_Vision_Dataset__c.Training_Status__c</members>
+        <members>Error_Log__c.Einstein_Vision_Dataset__c</members>
+        <members>Error_Log__c.Error_Message__c</members>
+        <members>Error_Log__c.Job_Type__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>EinsteinVision__c</members>
+        <members>Einstein_Vision_Dataset__c</members>
+        <members>Error_Log__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Einstein_Vision_Dataset__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Einstein_Vision_Dataset__c-Einstein Vision Dataset Layout</members>
+        <members>Error_Log__c-Error Log Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Einstein_Vision_Dataset__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>38.0</version>
+</Package>

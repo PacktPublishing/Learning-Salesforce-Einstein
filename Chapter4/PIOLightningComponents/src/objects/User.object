@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>PredictionIOExternalId__c</fullName>
+        <description>This is an externalId on User for PredictionIO API</description>
+        <externalId>true</externalId>
+        <inlineHelpText>This is an externalId on User for PredictionIO API</inlineHelpText>
+        <label>PredictionIOExternalId</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

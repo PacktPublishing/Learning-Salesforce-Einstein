@@ -1,0 +1,18 @@
+{
+    "autoRefresh": false,
+    "browser": "Google Chrome Canary",
+    "pollTimeout": 1200,
+    "debugOnly": true,
+    "debugFilter": "USER_DEBUG|FATAL_ERROR",
+    "apiVersion": "38.0",
+    "deployOptions": {
+        "checkOnly": false,
+        "testLevel": "runLocalTests",
+        "verbose": false,
+        "ignoreWarnings": true
+    },
+    "username": "mohith@einstein.com",
+    "password": "wow12345@vJJ1jnzgqAgRob1HvlhoRBE6",
+    "url": "https://login.salesforce.com",
+    "autoCompile": true
+}
