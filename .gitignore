@@ -47,10 +47,5 @@ Temporary Items
 .apdisk
 
 #Scala project ignore target folders
-target
-*.class
-pio.log
-
-# Maven for Java Project
-log/
 target/
+
