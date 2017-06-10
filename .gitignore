@@ -46,6 +46,3 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-#Scala project ignore target folders
-target/
-
