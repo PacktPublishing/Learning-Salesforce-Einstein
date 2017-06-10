@@ -48,4 +48,5 @@ Temporary Items
 
 # Ignore Target files
 /target/**
+/project/**
 
