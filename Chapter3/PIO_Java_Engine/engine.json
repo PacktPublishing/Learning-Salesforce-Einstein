@@ -1,0 +1,25 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "org.template.recommendation.RecommendationEngine",
+  "datasource": {
+    "params" : {
+      "appName": "Recommenderapp"
+    }
+  },
+  "algorithms": [
+    {
+      "name": "algo",
+      "params": {
+        "seed": 1,
+        "rank": 10,
+        "iteration": 10,
+        "lambda": 0.01,
+        "appName": "Recommenderapp",
+        "similarItemEvents": ["view"],
+        "seenItemEvents": ["buy", "view"],
+        "unseenOnly": true
+      }
+    }
+  ]
+}

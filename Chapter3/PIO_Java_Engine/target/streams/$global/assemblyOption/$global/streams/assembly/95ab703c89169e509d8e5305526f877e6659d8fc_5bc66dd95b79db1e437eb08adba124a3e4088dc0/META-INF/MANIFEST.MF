@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Export-Package: com.google.common.net;uses:="com.google.common.base,ja
+ vax.annotation,com.google.common.hash,com.google.common.io,com.google
+ .common.primitives,com.google.common.collect";version="12.0.0",com.go
+ ogle.common.collect;uses:="com.google.common.base,javax.annotation,co
+ m.google.common.primitives,com.google.common.math";version="12.0.0",c
+ om.google.common.primitives;uses:="javax.annotation,com.google.common
+ .base,sun.misc";version="12.0.0",com.google.common.base;uses:="javax.
+ annotation";version="12.0.0",com.google.common.cache;uses:="com.googl
+ e.common.collect,com.google.common.util.concurrent,javax.annotation,c
+ om.google.common.base,com.google.common.primitives";version="12.0.0",
+ com.google.common.eventbus;uses:="com.google.common.collect,com.googl
+ e.common.base,com.google.common.cache";version="12.0.0",com.google.co
+ mmon.util.concurrent;uses:="com.google.common.base,javax.annotation,c
+ om.google.common.collect";version="12.0.0",com.google.common.hash;use
+ s:="com.google.common.base,com.google.common.math,com.google.common.p
+ rimitives,javax.annotation";version="12.0.0",com.google.common.io;use
+ s:="com.google.common.hash,com.google.common.base,javax.annotation,co
+ m.google.common.primitives";version="12.0.0",com.google.common.reflec
+ t;uses:="javax.annotation,com.google.common.base,com.google.common.co
+ llect";version="12.0.0",com.google.common.math;uses:="com.google.comm
+ on.base,javax.annotation";version="12.0.0",com.google.common.annotati
+ ons;version="12.0.0"
+Built-By: cpovirk
+Tool: Bnd-1.50.0
+Bundle-Name: Guava: Google Core Libraries for Java
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0-google-v4
+Bundle-Version: 12.0.0
+Bnd-LastModified: 1335811274342
+Bundle-ManifestVersion: 2
+Bundle-Description: Guava is a suite of core and expanded libraries th
+ at include    utility classes, google's collections, io classes, and 
+ much    much more.    Guava has only one code dependency - javax.anno
+ tation,    per the JSR-305 spec.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Import-Package: javax.annotation;resolution:=optional,sun.misc;resolut
+ ion:=optional
+Bundle-SymbolicName: com.google.guava
+Archiver-Version: Plexus Archiver
+
