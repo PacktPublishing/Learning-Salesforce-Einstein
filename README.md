@@ -2,7 +2,7 @@
 This is the code repository for [Learning Salesforce Einstein](https://www.packtpub.com/big-data-and-business-intelligence/learning-salesforce-einstein?utm_source=github&utm_medium=repository&utm_content=9781787126893), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 
 ## About the Book
-This book is intended for experienced Salesforce developers and data scientists interested in exploring the breadth of Salesforce App Cloud offerings. This book assumes that the reader is familiar with programming, either as an open source developer or a Salesforce developer.
+This book is intended for experienced Salesforce developers and data scientists interested in exploring the breadth of Salesforce App Cloud offerings. This book assumes that the reader is familiar with programming, either as an open source developer or a Salesforce developer. All the code files are present in their respective code folders. Chapters 2, 7, 8 and 9 do not have any code files.
 
 ## Instructions and Navigation
 The code for Chapter 05 is organized into one folder, Chapter05 and the rest in one separate folder.
