@@ -9,14 +9,14 @@ The code for Chapter 05 is organized into one folder, Chapter05 and the rest in 
 
 The code will look like the following:
 
-var express = require('express');
-      var router = express.Router();
-      router.get('/', function(req, res) {
-        res.render('pages/home', {
-          oauthtoken: req.app.locals.oauthtoken
-        });
+    var express = require('express');
+    var router = express.Router();
+    router.get('/', function(req, res) {
+      res.render('pages/home', {
+        oauthtoken: req.app.locals.oauthtoken
       });
-      module.exports = router; 
+    });
+      module.exports = router;
 
  
  ## Related Products
