@@ -26,5 +26,3 @@ The code will look like the following:
 
 * [Salesforce CRM: The Definitive Admin [Video]](https://www.packtpub.com/application-development/salesforce-crm-definitive-admin-video?utm_source=github&utm_medium=repository&utm_content=9781782170761)
 
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
